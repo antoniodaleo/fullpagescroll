@@ -1,0 +1,46 @@
+body{
+    margin: 0; 
+    padding: 0; 
+}
+
+#fullpage{
+    height: 100vh; 
+    overflow: hidden;
+
+}
+
+#fullpage section h1{
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    line-height: 100vh; 
+    font-size: 10em; 
+    text-transform: uppercase; 
+
+}
+
+#fullpage section{
+    height: 100vh; 
+
+}
+
+#fullpage section:nth-child(1){
+    background-color: #f00; 
+
+}
+#fullpage section:nth-child(2){
+    background-color: #ff0; 
+
+}
+#fullpage section:nth-child(3){
+    background-color: #00f; 
+
+}
+#fullpage section:nth-child(4){
+    background-color: #0ff; 
+
+}
+#fullpage section:nth-child(5){
+    background-color: #0f0; 
+
+}
